@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PHP Task 1</title>
+    </head>
+    <body>
+        <H3>Contact Form</H3></p>
+
+        <form action="contact_form.php", method="POST">
+            <label for="lastname">Last name: </label>
+            <input type="text" name="lastname" placeholder="Please enter last name" required/> </p>
+            <label for="firstname" >First name: </label>
+            <input type="text" name="firstname" placeholder="please enter first name" required/> </p>
+            <label for="email">Email </label>
+            <input type="email" name="email" placeholder="plese enter email" required/></p>
+
+            <p>
+                <label for="gender">Gender: </label>
+                <input type="radio" name="gender"/> Female
+                <input type="radio" name="gender"/> Male
+            </p>
+            <select name="state">
+                <option>Select State</option>
+                <option>Lagos</option>
+                <option>Oyo</option>
+                <option>Edo</option>
+            </select></p>
+            <textarea cols="30" rows="4" name="comment" placeholder="Please comment here">
+            </textarea></p>
+
+            <input type="checkbox" name="terms"/> Agree to terms and conditions..</p>
+
+            <button name="submit" type="submit">Submit</button> </p> <button type="reset">Reset</button>
+
+        </form>
+        
+
+    </body>
+</html>
